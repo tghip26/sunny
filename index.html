@@ -1,2129 +1,557 @@
 <!DOCTYPE html>
-<html lang="vi">
-    <head>
-        <!-- Meta UTF8 charset -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui"/>
-        <title>Sunny Trade Group</title>
-        <meta name='robots' content='max-image-preview:large'/>
-        <style>
-            img:is([sizes="auto" i], [sizes^="auto," i]) {
-                contain-intrinsic-size: 3000px 1500px
-            }
-        </style>
-        <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-        <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Sunny Trade Group &raquo;" href="https://sunnytradegroup.com.au/feed/"/>
-        <link rel="alternate" type="application/rss+xml" title="Sunny Trade Group &raquo; Dòng bình luận" href="https://sunnytradegroup.com.au/comments/feed/"/>
-        <link rel="alternate" type="application/rss+xml" title="Sunny Trade Group &raquo; Home Dòng bình luận" href="https://sunnytradegroup.com.au/home/feed/"/>
-        <script type="text/javascript">
-            /* <![CDATA[ */
-            window._wpemojiSettings = {
-                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
-                "ext": ".png",
-                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
-                "svgExt": ".svg",
-                "source": {
-                    "concatemoji": "https:\/\/sunnytradegroup.com.au\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"
-                }
-            };
-            /*! This file is auto-generated */
-            !function(s, n) {
-                var o, i, e;
-                function c(e) {
-                    try {
-                        var t = {
-                            supportTests: e,
-                            timestamp: (new Date).valueOf()
-                        };
-                        sessionStorage.setItem(o, JSON.stringify(t))
-                    } catch (e) {}
-                }
-                function p(e, t, n) {
-                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(t, 0, 0);
-                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
-                      , a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(n, 0, 0),
-                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                    return t.every(function(e, t) {
-                        return e === a[t]
-                    })
-                }
-                function u(e, t) {
-                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(t, 0, 0);
-                    for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
-                        if (0 !== n.data[a])
-                            return !1;
-                    return !0
-                }
-                function f(e, t, n, a) {
-                    switch (t) {
-                    case "flag":
-                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
-                    case "emoji":
-                        return !a(e, "\ud83e\udedf")
-                    }
-                    return !1
-                }
-                function g(e, t, n, a) {
-                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : s.createElement("canvas")
-                      , o = r.getContext("2d", {
-                        willReadFrequently: !0
-                    })
-                      , i = (o.textBaseline = "top",
-                    o.font = "600 32px Arial",
-                    {});
-                    return e.forEach(function(e) {
-                        i[e] = t(o, e, n, a)
-                    }),
-                    i
-                }
-                function t(e) {
-                    var t = s.createElement("script");
-                    t.src = e,
-                    t.defer = !0,
-                    s.head.appendChild(t)
-                }
-                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
-                i = ["flag", "emoji"],
-                n.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                },
-                e = new Promise(function(e) {
-                    s.addEventListener("DOMContentLoaded", e, {
-                        once: !0
-                    })
-                }
-                ),
-                new Promise(function(t) {
-                    var n = function() {
-                        try {
-                            var e = JSON.parse(sessionStorage.getItem(o));
-                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
-                                return e.supportTests
-                        } catch (e) {}
-                        return null
-                    }();
-                    if (!n) {
-                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
-                            try {
-                                var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));"
-                                  , a = new Blob([e],{
-                                    type: "text/javascript"
-                                })
-                                  , r = new Worker(URL.createObjectURL(a),{
-                                    name: "wpTestEmojiSupports"
-                                });
-                                return void (r.onmessage = function(e) {
-                                    c(n = e.data),
-                                    r.terminate(),
-                                    t(n)
-                                }
-                                )
-                            } catch (e) {}
-                        c(n = g(i, f, p, u))
-                    }
-                    t(n)
-                }
-                ).then(function(e) {
-                    for (var t in e)
-                        n.supports[t] = e[t],
-                        n.supports.everything = n.supports.everything && n.supports[t],
-                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
-                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
-                    n.DOMReady = !1,
-                    n.readyCallback = function() {
-                        n.DOMReady = !0
-                    }
-                }).then(function() {
-                    return e
-                }).then(function() {
-                    var e;
-                    n.supports.everything || (n.readyCallback(),
-                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
-                    t(e.wpemoji)))
-                }))
-            }((window,
-            document), window._wpemojiSettings);
-            /* ]]> */
-        </script>
-        <style id='wp-emoji-styles-inline-css' type='text/css'>
-            img.wp-smiley, img.emoji {
-                display: inline !important;
-                border: none !important;
-                box-shadow: none !important;
-                height: 1em !important;
-                width: 1em !important;
-                margin: 0 0.07em !important;
-                vertical-align: -0.1em !important;
-                background: none !important;
-                padding: 0 !important;
-            }
-        </style>
-        <link rel='stylesheet' id='wp-block-library-css' href='https://sunnytradegroup.com.au/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all'/>
-        <style id='classic-theme-styles-inline-css' type='text/css'>
-            /*! This file is auto-generated */
-            .wp-block-button__link {
-                color: #fff;
-                background-color: #32373c;
-                border-radius: 9999px;
-                box-shadow: none;
-                text-decoration: none;
-                padding: calc(.667em + 2px) calc(1.333em + 2px);
-                font-size: 1.125em
-            }
-
-            .wp-block-file__button {
-                background: #32373c;
-                color: #fff;
-                text-decoration: none
-            }
-        </style>
-        <style id='global-styles-inline-css' type='text/css'>
-            :root {
-                --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-3: 4/3;
-                --wp--preset--aspect-ratio--3-4: 3/4;
-                --wp--preset--aspect-ratio--3-2: 3/2;
-                --wp--preset--aspect-ratio--2-3: 2/3;
-                --wp--preset--aspect-ratio--16-9: 16/9;
-                --wp--preset--aspect-ratio--9-16: 9/16;
-                --wp--preset--color--black: #000000;
-                --wp--preset--color--cyan-bluish-gray: #abb8c3;
-                --wp--preset--color--white: #ffffff;
-                --wp--preset--color--pale-pink: #f78da7;
-                --wp--preset--color--vivid-red: #cf2e2e;
-                --wp--preset--color--luminous-vivid-orange: #ff6900;
-                --wp--preset--color--luminous-vivid-amber: #fcb900;
-                --wp--preset--color--light-green-cyan: #7bdcb5;
-                --wp--preset--color--vivid-green-cyan: #00d084;
-                --wp--preset--color--pale-cyan-blue: #8ed1fc;
-                --wp--preset--color--vivid-cyan-blue: #0693e3;
-                --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
-                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
-                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
-                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
-                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
-                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
-                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
-                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
-                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
-                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
-                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
-                --wp--preset--font-size--small: 13px;
-                --wp--preset--font-size--medium: 20px;
-                --wp--preset--font-size--large: 36px;
-                --wp--preset--font-size--x-large: 42px;
-                --wp--preset--spacing--20: 0.44rem;
-                --wp--preset--spacing--30: 0.67rem;
-                --wp--preset--spacing--40: 1rem;
-                --wp--preset--spacing--50: 1.5rem;
-                --wp--preset--spacing--60: 2.25rem;
-                --wp--preset--spacing--70: 3.38rem;
-                --wp--preset--spacing--80: 5.06rem;
-                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-            }
-
-            :where(.is-layout-flex) {
-                gap: 0.5em;
-            }
-
-            :where(.is-layout-grid) {
-                gap: 0.5em;
-            }
-
-            body .is-layout-flex {
-                display: flex;
-            }
-
-            .is-layout-flex {
-                flex-wrap: wrap;
-                align-items: center;
-            }
-
-            .is-layout-flex > :is(*, div) {
-                margin: 0;
-            }
-
-            body .is-layout-grid {
-                display: grid;
-            }
-
-            .is-layout-grid > :is(*, div) {
-                margin: 0;
-            }
-
-            :where(.wp-block-columns.is-layout-flex) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-columns.is-layout-grid) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-post-template.is-layout-flex) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-post-template.is-layout-grid) {
-                gap: 1.25em;
-            }
-
-            .has-black-color {
-                color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-color {
-                color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-color {
-                color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-color {
-                color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-color {
-                color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-color {
-                color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-color {
-                color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-color {
-                color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-color {
-                color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-color {
-                color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-color {
-                color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-color {
-                color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-background-color {
-                background-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-background-color {
-                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-background-color {
-                background-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-background-color {
-                background-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-background-color {
-                background-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-background-color {
-                background-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-background-color {
-                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-background-color {
-                background-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-border-color {
-                border-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-border-color {
-                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-border-color {
-                border-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-border-color {
-                border-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-border-color {
-                border-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-border-color {
-                border-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-border-color {
-                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-border-color {
-                border-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-            }
-
-            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-            }
-
-            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-            }
-
-            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-            }
-
-            .has-cool-to-warm-spectrum-gradient-background {
-                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-            }
-
-            .has-blush-light-purple-gradient-background {
-                background: var(--wp--preset--gradient--blush-light-purple) !important;
-            }
-
-            .has-blush-bordeaux-gradient-background {
-                background: var(--wp--preset--gradient--blush-bordeaux) !important;
-            }
-
-            .has-luminous-dusk-gradient-background {
-                background: var(--wp--preset--gradient--luminous-dusk) !important;
-            }
-
-            .has-pale-ocean-gradient-background {
-                background: var(--wp--preset--gradient--pale-ocean) !important;
-            }
-
-            .has-electric-grass-gradient-background {
-                background: var(--wp--preset--gradient--electric-grass) !important;
-            }
-
-            .has-midnight-gradient-background {
-                background: var(--wp--preset--gradient--midnight) !important;
-            }
-
-            .has-small-font-size {
-                font-size: var(--wp--preset--font-size--small) !important;
-            }
-
-            .has-medium-font-size {
-                font-size: var(--wp--preset--font-size--medium) !important;
-            }
-
-            .has-large-font-size {
-                font-size: var(--wp--preset--font-size--large) !important;
-            }
-
-            .has-x-large-font-size {
-                font-size: var(--wp--preset--font-size--x-large) !important;
-            }
-
-            :where(.wp-block-post-template.is-layout-flex) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-post-template.is-layout-grid) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-columns.is-layout-flex) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-columns.is-layout-grid) {
-                gap: 2em;
-            }
-
-            :root :where(.wp-block-pullquote) {
-                font-size: 1.5em;
-                line-height: 1.6;
-            }
-        </style>
-        <link rel='stylesheet' id='contact-form-7-css' href='https://sunnytradegroup.com.au/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' type='text/css' media='all'/>
-        <link rel='stylesheet' id='rs-plugin-settings-css' href='https://sunnytradegroup.com.au/wp-content/plugins/revolution_slider/public/assets/css/rs6.css?ver=6.3.5' type='text/css' media='all'/>
-        <style id='rs-plugin-settings-inline-css' type='text/css'>
-            #rs-demo-id {
-            }
-        </style>
-        <link rel='stylesheet' id='nt-agricom-child-style-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom-child/style.css?ver=1.7.1' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-loader-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/css-spin-loader.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='bootstrap-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/bootstrap.min.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='fontawesome-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/fontawesome.min.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-slider-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/vegas-slider.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-main-style-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/style.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='aos-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/aos.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-vc-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/framework-visual-composer.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-custom-flexslider-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/flexslider/framework-flexslider.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-wordpress-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/framework-wordpress.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-extra-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/framework-extra.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-update-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/framework-update.css?ver=1.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-fonts-load-css' href='//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%7CRaleway%3A400%2C400i%2C500%2C500i%2C700%2C700i&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all'/>
-        <link rel='stylesheet' id='nt-agricom-custom-style-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/css/framework-custom-style.css?ver=1.0' type='text/css' media='all'/>
-        <style id='nt-agricom-custom-style-inline-css' type='text/css'>
-            div#preloader {
-                background-color: #ecf0f1;
-                overflow: hidden;
-                background-repeat: no-repeat;
-                background-position: center center;
-                height: 100%;
-                left: 0;
-                position: fixed;
-                top: 0;
-                width: 100%;
-                z-index: 1000;
-            }
-
-            @media only screen and (min-width: 768px) {
-                #top-bar {
-                    position: absolute;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                }
-
-                #top-bar.fixed {
-                    position: fixed !important;
-                    top: 0 !important;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    min-height: 80px;
-                    background-color: #fff !important;
-                }
-
-                .desktop #top-bar.fixed {
-                    -webkit-animation-duration: .3s;
-                    animation-duration: .3s;
-                    -webkit-animation-fill-mode: both;
-                    animation-fill-mode: both;
-                }
-
-                .desktop #top-bar.fixed.in {
-                    -webkit-animation-name: TopBarSlideInDown;
-                    animation-name: TopBarSlideInDown;
-                }
-
-                .desktop #top-bar.fixed.out {
-                    -webkit-animation-name: TopBarSlideOutUp;
-                    animation-name: TopBarSlideOutUp;
-                }
-
-                #top-bar.fixed #top-bar__navigation {
-                    padding-top: 20px;
-                }
-
-                #top-bar__navigation {
-                    position: relative;
-                    top: auto;
-                    right: auto;
-                    bottom: auto;
-                    left: auto;
-                    padding-top: 20px;
-                    padding-left: 30px;
-                    margin-left: 45px;
-                    text-align: left;
-                    overflow-y: visible;
-                    display: block;
-                }
-
-                #top-bar__navigation:before {
-                    content: none;
-                }
-
-                #top-bar__navigation > ul {
-                    display: block;
-                }
-
-                #top-bar__navigation li {
-                    display: inline-block;
-                    vertical-align: middle;
-                    margin-top: 0;
-                    margin-left: 20px;
-                }
-
-                #top-bar__navigation li:first-child {
-                    margin-left: 0;
-                }
-
-                #top-bar__navigation li.li-btn {
-                    float: right;
-                    margin-top: -18px;
-                }
-
-                #top-bar__navigation li:hover > .submenu {
-                    padding-top: 10px;
-                    visibility: visible;
-                    opacity: 1;
-                }
-
-                #top-bar__navigation .submenu {
-                    display: block;
-                    position: absolute;
-                    top: 100%;
-                    left: 5px;
-                    width: 200px;
-                    padding-top: 30px;
-                    visibility: hidden;
-                    opacity: 0;
-                    z-index: 3;
-                    -webkit-transition: opacity 0.2s ease-in-out, margin-left 0.2s ease-in-out, margin-right 0.2s ease-in-out, padding-top 0.2s ease-in-out, visibility 0.2s ease-in-out;
-                    transition: opacity 0.2s ease-in-out, margin-left 0.2s ease-in-out, margin-right 0.2s ease-in-out, padding-top 0.2s ease-in-out, visibility 0.2s ease-in-out;
-                }
-
-                #top-bar__navigation .submenu ul {
-                    background-color: #282828;
-                    margin-left: 0;
-                    padding: 30px;
-                }
-
-                #top-bar__navigation .submenu li {
-                    display: block;
-                    margin-top: 20px;
-                    margin-left: 0;
-                }
-
-                #top-bar__navigation .submenu li:first-child {
-                    margin-top: 0;
-                }
-
-                #top-bar__navigation .submenu a {
-                    color: #fff;
-                }
-
-                #top-bar__navigation-toggler {
-                    display: none;
-                }
-
-                .top-bar--style-1:not(.fixed) {
-                    top: 20px !important;
-                    background-color: transparent !important;
-                }
-
-                .top-bar--style-1:not(.fixed) #top-bar__navigation > ul > li > a:not(:hover):not(:focus) {
-                    color: #fff;
-                }
-
-                .top-bar--style-3:not(.fixed) {
-                    top: 15px !important;
-                    background-color: transparent !important;
-                }
-
-                .top-bar--style-3:not(.fixed) .container:before {
-                    content: "";
-                    position: absolute;
-                    top: -20px;
-                    right: -5px;
-                    bottom: -20px;
-                    left: -5px;
-                    background-color: #fff;
-                }
-            }
-
-            #top-bar #top-bar__navigation .li-btn .custom-btn.primary {
-                border-radius: 0px!important;
-            }
-
-            .top-bar--style-3 #top-bar__logo, .top-bar--style-2 #top-bar__logo,#top-bar__logo {
-                background-image: url(http://sunnytradegroup.com.au/wp-content/uploads/2021/02/Sunny-Trading-Group_logo-for-dark-background.png);
-            }
-
-            #top-bar.fixed #top-bar__logo {
-                background-image: url(http://sunnytradegroup.com.au/wp-content/uploads/2021/02/Sunny-Trading-Group_logo.png);
-            }
-
-            @media only screen and (max-width: 767px) {
-                #top-bar__logo {
-                    background-image: url(http://sunnytradegroup.com.au/wp-content/uploads/2021/02/Sunny-Trading-Group_logo.png);
-                }
-            }
-
-            #top-bar__logo {
-                width: 250px !important;
-            }
-
-            #top-bar__logo {
-                height: 105px !important;
-            }
-
-            @media only screen and (min-width: 992px) {
-                .woocommerce.single .index-header .uppercase {
-                    font-size: 70px;
-                }
-            }
-
-            .index-header {
-                background: transparent url(https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/bg_5.jpg)no-repeat fixed center top / cover!important;
-            }
-
-            .blog .index-header .pattern.template-overlay {
-                background: rgba(74,139,113,0.5);
-                !important;opacity: 1;
-            }
-
-            .intro.index-header {
-                min-height: 47vh !important;
-                max-height: 100%;
-            }
-
-            .blog .index-header .template-cover-text .uppercase {
-                font-size: 70px!important;
-            }
-
-            .blog .index-header .template-cover-text .cover-text-sublead {
-                font-size: 16px!important;
-            }
-
-            .blog .index-header {
-                padding-top: 40px!important;
-            }
-
-            .woocommerce .index-header {
-                padding-top: 40px!important;
-            }
-
-            .woocommerce .index-header {
-                padding-bottom: 0px!important;
-            }
-
-            .woocommerce .index-header {
-                padding-top: 40px!important;
-            }
-
-            .woocommerce .index-header {
-                padding-bottom: 0px!important;
-            }
-
-            @media only screen and (min-width: 992px) {
-                .archive.woocommerce .index-header .uppercase {
-                    font-size: 70px;
-                }
-            }
-
-            .single .index-header {
-                background: transparent url( https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/bg_6.jpg)no-repeat fixed center top / cover!important;
-            }
-
-            @media only screen and (min-width: 992px) {
-                .single .index-header h1 {
-                    font-size: 70px;
-                }
-            }
-
-            .single .index-header {
-                height: 47vh !important;
-            }
-
-            @media (min-width: 768px) {
-                .single .index-header {
-                    padding-top: 40px !important;
-                    padding-bottom: 0px !important;
-                }
-            }
-
-            @media only screen and (min-width: 992px) {
-                .archive .index-header h1 {
-                    font-size: 70px;
-                }
-            }
-
-            .archive .index-header {
-                height: 47vh !important;
-            }
-
-            @media (min-width: 768px) {
-                .archive .index-header {
-                    padding-top: 40px !important;
-                    padding-bottom: 0px !important;
-                }
-            }
-
-            .error404 .index-header {
-                background: transparent url( https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/bg_8.jpg)no-repeat fixed center top / cover!important;
-            }
-
-            .error404 .index-header .template-overlay {
-                background: rgba(74,139,113,0.15);
-                !important; opacity: 1;
-            }
-
-            @media only screen and (min-width: 992px) {
-                .error404 .index-header h1 {
-                    font-size: 70px;
-                }
-            }
-
-            .error404 .index-header {
-                height: 47vh !important;
-            }
-
-            @media (min-width: 768px) {
-                .error404 .index-header {
-                    padding-top: 40px !important;
-                    padding-bottom: 0px !important;
-                }
-            }
-
-            @media only screen and (min-width: 992px) {
-                .search .index-header h1 {
-                    font-size: 70px;
-                }
-            }
-
-            .search .index-header {
-                height: 47vh !important;
-            }
-
-            @media (min-width: 768px) {
-                .search .index-header {
-                    padding-top: 40px !important;
-                    padding-bottom: 0px !important;
-                }
-            }
-
-            .breadcrubms, .breadcrubms span a span {
-                color: #ffffff!important;
-            }
-
-            .breadcrubms span a span:hover {
-                color: #f1cf69!important;
-            }
-
-            .breadcrubms span {
-                color: #f1cf69!important;
-            }
-
-            .breadcrubms {
-                font-size: 16px;
-            }
-        </style>
-        <link rel='stylesheet' id='nt-agricom-style-css' href='https://sunnytradegroup.com.au/wp-content/themes/nt-agricom-child/style.css?ver=6.8.2' type='text/css' media='all'/>
-        <link rel='stylesheet' id='js_composer_front-css' href='https://sunnytradegroup.com.au/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.9' type='text/css' media='all'/>
-        <script type="text/javascript" src="https://sunnytradegroup.com.au/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-        <script type="text/javascript" src="https://sunnytradegroup.com.au/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-        <script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/revolution_slider/public/assets/js/rbtools.min.js?ver=6.3.5" id="tp-tools-js"></script>
-        <script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/revolution_slider/public/assets/js/rs6.min.js?ver=6.3.5" id="revmin-js"></script>
-        <script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/device.js?ver=1.0" id="device-js"></script>
-        <script></script>
-        <link rel="https://api.w.org/" href="https://sunnytradegroup.com.au/wp-json/"/>
-        <link rel="alternate" title="JSON" type="application/json" href="https://sunnytradegroup.com.au/wp-json/wp/v2/pages/443"/>
-        <meta name="generator" content="WordPress 6.8.2"/>
-        <link rel="canonical" href="https://sunnytradegroup.com.au/"/>
-        <link rel='shortlink' href='https://sunnytradegroup.com.au/'/>
-        <link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="https://sunnytradegroup.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsunnytradegroup.com.au%2F"/>
-        <link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="https://sunnytradegroup.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsunnytradegroup.com.au%2F&#038;format=xml"/>
-        <style type="text/css">
-            .recentcomments a {
-                display: inline !important;
-                padding: 0 !important;
-                margin: 0 !important;
-            }
-        </style>
-        <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-        <style data-type="vc_custom-css">
-            .wpcf7-form.invalid .input-wrp i {
-                right: 10px;
-            }
-
-            .wpcf7-not-valid {
-                padding-left: 10px;
-            }
-
-            @media (max-width: 787px) {
-                .timeline-row .vc_column-inner {
-                    padding-left: 0px !important;
-                    margin-bottom: 0px !important;
-                }
-
-                .timeline-row .timeline {
-                    padding-left: 0px !important;
-                }
-
-                .timeline-row .timeline__inner {
-                    margin-bottom: -30px;
-                    padding-top: 30px;
-                }
-
-                .timeline-row .vc_column_container {
-                    padding-left: 30px;
-                }
-
-                .timeline-row h2 {
-                    padding-left: 15px;
-                }
-            }
-
-            .show-on-mobile {
-                display: none !important;
-            }
-
-            @media (max-width: 992px) {
-                .show-on-mobile {
-                    display: block !important;
-                }
-            }
-        </style>
-        <meta name="generator" content="Powered by Slider Revolution 6.3.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
-        <link rel="icon" href="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/cropped-Sunny-Trading-Group_logo-for-dark-background-scaled-1-32x32.jpg" sizes="32x32"/>
-        <link rel="icon" href="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/cropped-Sunny-Trading-Group_logo-for-dark-background-scaled-1-192x192.jpg" sizes="192x192"/>
-        <link rel="apple-touch-icon" href="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/cropped-Sunny-Trading-Group_logo-for-dark-background-scaled-1-180x180.jpg"/>
-        <meta name="msapplication-TileImage" content="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/cropped-Sunny-Trading-Group_logo-for-dark-background-scaled-1-270x270.jpg"/>
-        <script type="text/javascript">
-            function setREVStartSize(e) {
-                //window.requestAnimationFrame(function() {				 
-                window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
-                window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
-                try {
-                    var pw = document.getElementById(e.c).parentNode.offsetWidth, newh;
-                    pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
-                    e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
-                    e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
-                    e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
-                    e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
-                    e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
-                    e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
-                    e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
-                    if (e.layout === "fullscreen" || e.l === "fullscreen")
-                        newh = Math.max(e.mh, window.RSIH);
-                    else {
-                        e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-                        for (var i in e.rl)
-                            if (e.gw[i] === undefined || e.gw[i] === 0)
-                                e.gw[i] = e.gw[i - 1];
-                        e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
-                        e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-                        for (var i in e.rl)
-                            if (e.gh[i] === undefined || e.gh[i] === 0)
-                                e.gh[i] = e.gh[i - 1];
-
-                        var nl = new Array(e.rl.length), ix = 0, sl;
-                        e.tabw = e.tabhide >= pw ? 0 : e.tabw;
-                        e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
-                        e.tabh = e.tabhide >= pw ? 0 : e.tabh;
-                        e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
-                        for (var i in e.rl)
-                            nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
-                        sl = nl[0];
-                        for (var i in nl)
-                            if (sl > nl[i] && nl[i] > 0) {
-                                sl = nl[i];
-                                ix = i;
-                            }
-                        var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
-                        newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
-                    }
-                    if (window.rs_init_css === undefined)
-                        window.rs_init_css = document.head.appendChild(document.createElement("style"));
-                    document.getElementById(e.c).height = newh + "px";
-                    window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
-                } catch (e) {
-                    console.log("Failure at Presize of Slider:" + e)
-                }
-                //});
-            }
-            ;</script>
-        <style type="text/css" data-type="vc_shortcodes-default-css">
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-
-            .vc_do_custom_heading {
-                margin-bottom: 0.625rem;
-                margin-top: 0;
-            }
-        </style>
-        <style type="text/css" data-type="vc_shortcodes-custom-css">
-            .vc_custom_1613620408779 {
-                padding-top: 100px !important;
-            }
-
-            .vc_custom_1613620408781 {
-                padding-top: 80px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .vc_custom_1613620408781 {
-                padding-top: 80px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .vc_custom_1613620408782 {
-                padding-top: 60px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .vc_custom_1613978816649 {
-                padding-bottom: 60px !important;
-                background-image: url(http://sunnytradegroup.com.au/wp-content/uploads/2017/02/1-5.jpg?id=106) !important;
-                background-position: center !important;
-                background-repeat: no-repeat !important;
-                background-size: contain !important;
-            }
-
-            .vc_custom_1613978816650 {
-                padding-top: 0px !important;
-            }
-
-            .vc_custom_1613978816651 {
-                padding-top: 0px !important;
-            }
-
-            .vc_custom_1613978816653 {
-                padding-top: 0px !important;
-            }
-
-            .vc_custom_1613627531759 {
-                padding-top: 100px !important;
-                padding-bottom: 100px !important;
-                background-color: #e9f1ee !important;
-                background-position: 0 0 !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .vc_custom_1613627531760 {
-                padding-top: 80px !important;
-                padding-bottom: 80px !important;
-            }
-
-            .vc_custom_1613627531761 {
-                padding-top: 80px !important;
-                padding-bottom: 80px !important;
-            }
-
-            .vc_custom_1613627531762 {
-                padding-top: 60px !important;
-                padding-bottom: 60px !important;
-            }
-
-            .vc_custom_1613558040452 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1613558075534 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1487720277727 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1487720285494 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1487720298258 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1487720305688 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1583360786575 {
-                margin-bottom: 0px !important;
-            }
-
-            .vc_custom_1613558085797 {
-                margin-top: 25px !important;
-                margin-bottom: 25px !important;
-            }
-
-            .vc_custom_1489223612496 {
-                margin-bottom: 0px !important;
-            }
-
-            .vc_custom_1613558101361 {
-                margin-top: 25px !important;
-                margin-bottom: 25px !important;
-            }
-
-            .vc_custom_1489754812613 {
-                margin-bottom: 0px !important;
-            }
-
-            .vc_custom_1613558110450 {
-                margin-top: 25px !important;
-                margin-bottom: 25px !important;
-            }
-
-            .vc_custom_1625723020736 {
-                margin-bottom: 0px !important;
-            }
-
-            .vc_custom_1625723028812 {
-                margin-top: 25px !important;
-                margin-bottom: 25px !important;
-            }
-
-            .vc_custom_1489223632473 {
-                margin-bottom: 0px !important;
-            }
-
-            .vc_custom_1613558150464 {
-                margin-top: 25px !important;
-                margin-bottom: 25px !important;
-            }
-
-            .vc_custom_1613620577820 {
-                padding-top: 80px !important;
-                padding-bottom: 20px !important;
-            }
-
-            .vc_custom_1613620577821 {
-                padding-top: 80px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .vc_custom_1613620577821 {
-                padding-top: 60px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .vc_custom_1613979148336 {
-                margin-bottom: 35px !important;
-            }
-
-            .vc_custom_1613976475582 {
-                margin-bottom: 30px !important;
-            }
-
-            .vc_custom_1613976442223 {
-                margin-bottom: 15px !important;
-            }
-
-            .vc_custom_1613976461013 {
-                margin-bottom: 45px !important;
-            }
-
-            .vc_custom_1489842806121 {
-                padding-top: 0px !important;
-            }
-        </style>
-        <noscript>
-            <style>
-                .wpb_animate_when_almost_visible {
-                    opacity: 1;
-                }
-            </style>
-        </noscript>
-    </head>
-    <!-- BODY START=========== -->
-    <body class="home wp-singular page-template page-template-one-page-template page-template-one-page-template-php page page-id-443 wp-theme-nt-agricom wp-child-theme-nt-agricom-child  nt-theme-homepage page page-home wpb-js-composer js-comp-ver-7.9 vc_responsive">
-        <div id="preloader">
-            <div class="loader12"></div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunny Trading Group</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav-container">
+          <div class="logo">SUNNY TRADING GROUP</div>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <a href="#contact" class="get-in-touch-btn">GET IN TOUCH</a>
+          <div class="mobile-menu-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-header">
+        <div class="hero-logo">
+          <span class="logo-circle"></span>
+          <span class="logo-text"
+            >SUNNY<br /><span style="font-size: 18px; font-weight: 400"
+              >TRADING GROUP</span
+            ></span
+          >
         </div>
-        <!-- start top bar -->
-        <div id="top-bar" class="top-bar--style-1">
-            <div class="container">
-                <a id="top-bar__logo" class="site-logo nt-logo" href="https://sunnytradegroup.com.au/"></a>
-                <a id="top-bar__navigation-toggler" href="javascript:void(0);">
-                    <span></span>
-                </a>
-                <nav id="top-bar__navigation">
-                    <li class="li-btn">
-                        <a class="custom-btn primary" target="_blank" href="http://sunnytradegroup.com.au/">GET IN TOUCH</a>
-                    </li>
-                </nav>
-            </div>
+        <a href="#contact" class="hero-contact-btn">GET IN TOUCH</a>
+      </div>
+      <div class="hero-nav hero-nav-left">
+        <button>PREV</button>
+      </div>
+      <div class="hero-content">
+        <h1 style="font-size: 6rem; letter-spacing: 8px">FOOD</h1>
+      </div>
+      <div class="hero-nav hero-nav-right">
+        <button>NEXT</button>
+      </div>
+      <div class="pagination-dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-row">
+          <div class="about-title">
+            <h1>Welcome to<br />Sunny<br />Trading Group</h1>
+          </div>
+          <div class="about-desc">
+            <p>
+              Sunny Trading Group is one of Melbourne’s leading exporters to
+              Asia in the agriproducts industry. We’re highly experienced in
+              sourcing, delivering and providing excellent logistical solutions.
+            </p>
+            <p>
+              We’ve been trading products from Australia to Asia since 2012. We
+              are experts in sourcing and delivery. We provide our trading
+              partners with a first-class service provider network so that they
+              can capture the market potentials of the markets while minimizing
+              their trading expenses, ensuring risks can be managed at ease.
+            </p>
+          </div>
         </div>
-        <main>
-            <div class="wpb-content-wrapper">
-                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
-                    <script type="text/javascript">
-                        (function() {
-                            var oInterval = setInterval(function() {
-                                if (typeof window.jQuery !== 'undefined') {
-                                    clearInterval(oInterval);
-                                    jQuery(document).ready(function($) {
-
-                                        $.vegas.isVideoCompatible = function() {
-                                            return true;
-                                        }
-                                        var slider = $('#vegas-slider'), slides = [{
-                                            name: "",
-                                            src: 'https://sunnytradegroup.com.au/wp-content/uploads/2021/02/pexels-pixabay-533982-1-scaled.jpg',
-                                        }, {
-                                            name: "",
-                                            src: 'https://sunnytradegroup.com.au/wp-content/uploads/2021/07/Untitled-design-2.png',
-                                        }, {
-                                            name: "",
-                                            src: 'https://sunnytradegroup.com.au/wp-content/uploads/2021/03/pexels-alejandro-barron-96715-scaled.jpg',
-                                        }, {
-                                            name: "",
-                                            src: 'https://sunnytradegroup.com.au/wp-content/uploads/2021/02/pexels-k-zoltan-544554-scaled.jpg',
-                                        }, {
-                                            name: "",
-                                            src: 'https://sunnytradegroup.com.au/wp-content/uploads/2021/02/pexels-barbara-webb-1175048-scaled.jpg',
-                                        }, ], slider_content = $('.start-screen__content'), dots, a, x;
-                                        slider.vegas({
-                                            autoplay: true,
-                                            timer: false,
-                                            preloadImage: true,
-                                            transition: "random",
-                                            transitionDuration: 4000,
-                                            delay: 7000,
-                                            slides: slides,
-                                            overlay: 'https://sunnytradegroup.com.au/wp-content/uploads/2017/02/04.png',
-                                            init: function(globalSettings) {
-
-                                                if (this.data('dots') == true) {
-
-                                                    var $this = this
-                                                      , dots = $('<nav class="vegas-dots"></nav>');
-
-                                                    $this.find('.vegas-control').append(dots);
-
-                                                    for (var i = 0; i < slides.length; i++) {
-                                                        x = $('<a "href="#" class="paginatorLink"></a>');
-
-                                                        x.on('click', function(e) {
-                                                            e.preventDefault();
-
-                                                            $this.vegas('jump', dots.find('a').index(this));
-                                                        });
-
-                                                        dots.append(x);
-                                                    }
-                                                    ;
-                                                    a = dots.find('a');
-                                                    a.eq(0).addClass('active');
-
-                                                    slider_content.eq(0).addClass('active');
-                                                }
-                                                ;
-                                            },
-                                            play: function(index, slideSettings) {
-                                            },
-                                            walk: function(index, slideSettings) {
-
-                                                if (this.data('dots') == true) {
-
-                                                    a.removeClass('active').eq(index).addClass('active');
-                                                }
-                                                ;
-                                                slider_content.removeClass('active').eq(index).addClass('active');
-                                            }
-                                        });
-
-                                        $('#vegas-control__prev').on('click', function() {
-                                            slider.vegas('previous');
-                                        });
-
-                                        $('#vegas-control__next').on('click', function() {
-                                            slider.vegas('next');
-                                        });
-                                    });
-                                }
-                            }, 500);
-                        }
-                        )();
-                    </script>
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                            <div class="wpb_wrapper">
-                                <header id="start-screen" class="start-screen--style-1">
-                                    <div id="vegas-slider" data-dots="true">
-                                        <div class="vegas-control">
-                                            <span id="vegas-control__prev" class="vegas-control__btn">Prev</span>
-                                            <span id="vegas-control__next" class="vegas-control__btn">Next</span>
-                                        </div>
-                                    </div>
-                                    <div id="start-screen_content-container">
-                                        <div class="start-screen__content start-screen__content-second">
-                                            <div class="v-align">
-                                                <div class="v-middle">
-                                                    <div class="container">
-                                                        <div class="row flex-items-md-center left">
-                                                            <div class="col-xs-12 col-lg-10 col-xl-8">
-                                                                <p class="title">Sunny Trading Group</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="start-screen__content start-screen__content-second">
-                                            <div class="v-align">
-                                                <div class="v-middle">
-                                                    <div class="container">
-                                                        <div class="row flex-items-md-center left">
-                                                            <div class="col-xs-12 col-lg-6 col-xl-6">
-                                                                <p class="title">Food</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="start-screen__content start-screen__content-second">
-                                            <div class="v-align">
-                                                <div class="v-middle">
-                                                    <div class="container">
-                                                        <div class="row flex-items-md-center left">
-                                                            <div class="col-xs-12 col-lg-10 col-xl-8">
-                                                                <p class="title">grains</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="start-screen__content start-screen__content-second">
-                                            <div class="v-align">
-                                                <div class="v-middle">
-                                                    <div class="container">
-                                                        <div class="row flex-items-md-center text-center">
-                                                            <div class="col-xs-12 col-lg-10 col-xl-8">
-                                                                <p class="title" style=" font-size:130px;">Vegetable Proteins</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="start-screen__content start-screen__content-second">
-                                            <div class="v-align">
-                                                <div class="v-middle">
-                                                    <div class="container">
-                                                        <div class="row flex-items-md-center text-center">
-                                                            <div class="col-xs-12 col-lg-10 col-xl-8">
-                                                                <p class="title">Animal Protein</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </header>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
-                <div class="container">
-                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1613620408779">
-                        <style>
-                            @media only screen and (max-width: 992px) {
-                                .vc_custom_1613620408779 {
-                                    padding-top: 80px !important;
-                                    padding-bottom: 0px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 768px) {
-                                .vc_custom_1613620408779 {
-                                    padding-top: 80px !important;
-                                    padding-bottom: 0px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 480px) {
-                                .vc_custom_1613620408779 {
-                                    padding-top: 60px !important;
-                                    padding-bottom: 0px !important;
-                                }
-                            }
-                        </style>
-                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-12 vc_col-xs-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <h2 style="font-size: 3.5rem;color: #333333;line-height: 1.1;text-align: left" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558040452">Welcome to Sunny Trading Group</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-9 vc_col-md-12 vc_col-xs-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <h4 style="font-size: 1.6rem;color: #333333;text-align: left" class="vc_custom_heading vc_do_custom_heading">Sunny Trading Group is one of Melbourne’s leading exporters to Asia in the agriproducts industry. We’re highly experienced in sourcing, delivering and providing excellent logistical solutions.</h4>
-                                    <p style="color: #777777;text-align: left" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558075534">We’ve been trading products from Australia to Asia since 2012. We are experts in sourcing and delivery. We provide our trading partners with a first-class service provider network so that they can capture the market potentials of the markets while minimizing their trading expenses, ensuring risks can be managed at ease.</p>
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                        <div class="wpb_column vc_column_container vc_col-sm-1/5 vc_col-lg-2 vc_col-md-2 vc_col-xs-6">
-                                            <div class="vc_column-inner vc_custom_1487720277727">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element vc_custom_1583360786575  img-responsive">
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_1-77x77.png" width="77" height="77" alt="ico_1" title="ico_1" loading="lazy"/>
-                                                            </div>
-                                                        </figure>
-                                                    </div>
-                                                    <h3 style="font-size: 1.6rem;color: #333333;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558085797">Grains</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-1/5 vc_col-lg-2 vc_col-md-2 vc_col-xs-6">
-                                            <div class="vc_column-inner vc_custom_1487720285494">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element vc_custom_1489223612496">
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_2-77x77.png" width="77" height="77" alt="ico_2" title="ico_2" loading="lazy"/>
-                                                            </div>
-                                                        </figure>
-                                                    </div>
-                                                    <h3 style="font-size: 1.6rem;color: #333333;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558101361">Vegetable Proteins</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-1/5 vc_col-lg-2 vc_col-md-2 vc_col-xs-6">
-                                            <div class="vc_column-inner vc_custom_1487720298258">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element vc_custom_1489754812613">
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_3-90x77.png" width="90" height="77" alt="ico_3" title="ico_3" loading="lazy"/>
-                                                            </div>
-                                                        </figure>
-                                                    </div>
-                                                    <h3 style="font-size: 1.6rem;color: #333333;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558110450">Animal Proteins</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-1/5 vc_col-lg-2 vc_col-md-2 vc_col-xs-6">
-                                            <div class="vc_column-inner vc_custom_1487720305688">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element vc_custom_1625723020736">
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2021/07/milk-box-logo-green-77x77.png" width="77" height="77" alt="milk box logo green" title="milk box logo green" loading="lazy"/>
-                                                            </div>
-                                                        </figure>
-                                                    </div>
-                                                    <h3 style="font-size: 1.6rem;color: #333333;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading vc_custom_1625723028812">Food</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-1/5">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element vc_custom_1489223632473">
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_5-77x77.png" width="77" height="77" alt="ico_5" title="ico_5" loading="lazy"/>
-                                                            </div>
-                                                        </figure>
-                                                    </div>
-                                                    <h3 style="font-size: 1.6rem;color: #333333;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading vc_custom_1613558150464">Global Importing &amp;Exporting</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1613978816649 vc_row-has-fill nt-theme-extra-row-bgposition-vc_custom_1613978816649 row-bg-image-hide-992 row-bg-image-hide-768 row-bg-image-hide-480">
-                        <style>
-                            @media only screen and (max-width: 992px) {
-                                .vc_custom_1613978816649 {
-                                    padding-top: 0px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 768px) {
-                                .vc_custom_1613978816649 {
-                                    padding-top: 0px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 480px) {
-                                .vc_custom_1613978816649 {
-                                    padding-top: 0px !important;
-                                }
-                            }
-
-                            .vc_row.nt-theme-extra-row-bgposition-vc_custom_1613978816649 {
-                                background-position: 100% 490px !important;
-                                background-size: 50% !important;
-                            }
-                        </style>
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element">
-                                        <figure class="wpb_wrapper vc_figure">
-                                            <div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey">
-                                                <img fetchpriority="high" decoding="async" width="960" height="480" src="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-1024x512.png" class="vc_single_image-img attachment-large" alt="" title="Copy of Copy of completion" srcset="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-1024x512.png 1024w, https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-300x150.png 300w, https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-768x384.png 768w, https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-1536x768.png 1536w, https://sunnytradegroup.com.au/wp-content/uploads/2021/02/Copy-of-Copy-of-completion-2048x1024.png 2048w" sizes="(max-width: 960px) 100vw, 960px"/>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <style></style>
-                        <style>
-                            @media only screen and (max-width: 992px) {
-                                . {
-                                    padding-top: 80px !important;
-                                    padding-bottom: 20px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 768px) {
-                                . {
-                                    padding-top: 80px !important;
-                                    padding-bottom: 0px !important;
-                                }
-                            }
-
-                            @media only screen and (max-width: 480px) {
-                                . {
-                                    padding-top: 60px !important;
-                                    padding-bottom: 0px !important;
-                                }
-                            }
-                        </style>
-                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-6 vc_col-md-12 vc_col-xs-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <h2 style="font-size: 3.5rem;color: #333333;line-height: 1.1;text-align: left" class="vc_custom_heading vc_do_custom_heading extra-resp vc_custom_1613979148336">A superior gateway to export to Asia</h2>
-                                    <h4 style="font-size: 1.6rem;color: #333333;line-height: 1.538;text-align: left" class="vc_custom_heading vc_do_custom_heading vc_custom_1613976475582">We have been marketing Australian agriproducts and Feed Ingredients to Asia since 2012. We are highly experienced in sourcing and delivering product on time, and in meeting the quality and specification standards that our customers need.</h4>
-                                    <p style="color: #777777;text-align: left" class="vc_custom_heading vc_do_custom_heading vc_custom_1613976442223">We understand Asia market better than anyone. Our director has been trading agriproducts in Asia since 2006 and since then, we have been expanding our professional network with local and global trading partners. We have been serving more than 40 top feed manufacturers, trading firms and farmers from across Asia, and more than 30 top suppliers from USA, Canada, Australia, Brazil, Argentina, Singapore and Europe.</p>
-                                    <p style="color: #777777;text-align: left" class="vc_custom_heading vc_do_custom_heading vc_custom_1613976461013">We know the differences in business culture and business environment so we can be your go-to-expert when trading from across the globe to Asia. With our extensive and growing network of industry experts, our sole purpose is to help you access Asia market with confidence.</p>
-                                    <p class="text-left">
-                                        <a id="btn-68834fa4df8e6" class="custom-btn big primary" href="http://sunnytradegroup.com.au/contact/" title="FIND OUT MORE" style=" color:#333333;">FIND OUT MORE</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row-full-width vc_clearfix"></div>
-                </div>
-                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1613627531759 vc_row-has-fill vc_row-no-padding nt-theme-extra-row-bgposition-vc_custom_1613627531759">
-                    <style>
-                        @media only screen and (max-width: 992px) {
-                            .vc_custom_1613627531759 {
-                                padding-top: 80px !important;
-                                padding-bottom: 80px !important;
-                            }
-                        }
-
-                        @media only screen and (max-width: 768px) {
-                            .vc_custom_1613627531759 {
-                                padding-top: 80px !important;
-                                padding-bottom: 80px !important;
-                            }
-                        }
-
-                        @media only screen and (max-width: 480px) {
-                            .vc_custom_1613627531759 {
-                                padding-top: 60px !important;
-                                padding-bottom: 60px !important;
-                            }
-                        }
-
-                        .vc_row.nt-theme-extra-row-bgposition-vc_custom_1613627531759 {
-                            background-position: center right 40px!important;
-                        }
-                    </style>
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner vc_custom_1489842806121">
-                            <div class="wpb_wrapper">
-                                <h2 style="font-size: 3.5rem;text-align: center" class="vc_custom_heading vc_do_custom_heading">Products and services</h2>
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig  img-responsive">
-                                                    <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                            <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_3_1-1.png" width="166" height="135" alt="ico_3_1" title="ico_3_1" loading="lazy"/>
-                                                        </div>
-                                                    </figure>
-                                                </div>
-                                                <h3 style="font-size: 1.6rem;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading wpb_animate_when_almost_visible wpb_flipInX flipInX">Animal proteins</h3>
-                                                <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_slideInUp slideInUp">
-                                                    <div class="wpb_wrapper">
-                                                        <ul>
-                                                            <li style="text-align: center;">Meat and bone meal</li>
-                                                            <li style="text-align: center;">Blood meal</li>
-                                                            <li style="text-align: center;">Feather meal</li>
-                                                            <li style="text-align: center;">Bovine meal</li>
-                                                            <li style="text-align: center;">Fish meal</li>
-                                                            <li style="text-align: center;">Kangaroo meal</li>
-                                                            <li style="text-align: center;">Ovine meal</li>
-                                                            <li style="text-align: center;">Poultry meal</li>
-                                                            <li style="text-align: center;">Tallows and oils</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig  img-responsive">
-                                                    <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                            <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2017/02/ico_1_1.png" width="152" height="155" alt="ico_1_1" title="ico_1_1" loading="lazy"/>
-                                                        </div>
-                                                    </figure>
-                                                </div>
-                                                <h3 style="font-size: 1.6rem;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading wpb_animate_when_almost_visible wpb_flipInX flipInX">Grains</h3>
-                                                <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_slideInUp slideInUp">
-                                                    <div class="wpb_wrapper">
-                                                        <ul>
-                                                            <li style="text-align: center;">Barley</li>
-                                                            <li style="text-align: center;">Corn</li>
-                                                            <li style="text-align: center;">Soybean Cleaned No1, No2</li>
-                                                            <li style="text-align: center;">Soybean non-GMO</li>
-                                                            <li style="text-align: center;">Wheat</li>
-                                                            <li style="text-align: center;">Oat</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig  img-responsive">
-                                                    <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                            <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2021/07/milk-box-logo.png" width="144" height="144" alt="milk box logo" title="milk box logo" loading="lazy"/>
-                                                        </div>
-                                                    </figure>
-                                                </div>
-                                                <h3 style="font-size: 1.6rem;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading wpb_animate_when_almost_visible wpb_flipInX flipInX">Food</h3>
-                                                <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_slideInUp slideInUp">
-                                                    <div class="wpb_wrapper">
-                                                        <ul>
-                                                            <li style="text-align: center;">Milk powder</li>
-                                                            <li style="text-align: center;">Soybean for soya milk</li>
-                                                            <li style="text-align: center;">Oat milk</li>
-                                                            <li style="text-align: center;">Almond milk</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig  img-responsive">
-                                                    <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                            <img decoding="async" class="vc_single_image-img " src="https://sunnytradegroup.com.au/wp-content/uploads/2021/02/ico_2_1-1.png" width="154" height="154" alt="ico_2_1-1" title="ico_2_1-1" loading="lazy"/>
-                                                        </div>
-                                                    </figure>
-                                                </div>
-                                                <h3 style="font-size: 1.6rem;line-height: 1.2;text-align: center" class="vc_custom_heading vc_do_custom_heading wpb_animate_when_almost_visible wpb_flipInX flipInX">Vegetable Proteins</h3>
-                                                <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_slideInUp slideInUp">
-                                                    <div class="wpb_wrapper">
-                                                        <ul>
-                                                            <li style="text-align: center;">Canola Meal</li>
-                                                            <li style="text-align: center;">DDGS (Corn)</li>
-                                                            <li style="text-align: center;">DDGS (Wheat)</li>
-                                                            <li style="text-align: center;">Soybean Meal</li>
-                                                            <li style="text-align: center;">Sunflower Meal</li>
-                                                            <li style="text-align: center;">Rice bran pellets</li>
-                                                            <li style="text-align: center;">Wheat bran pellets</li>
-                                                            <li style="text-align: center;">Sorghum</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+        <div class="about-icons">
+          <div class="about-icon">
+            <!-- SVG icon grains -->
+            <svg width="80" height="80" viewBox="0 0 64 64" fill="none">
+              <path
+                d="M12 52V32M12 32L8 24M12 32L16 24M12 32L12 16M24 52V32M24 32L20 24M24 32L28 24M24 32L24 16"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <path
+                d="M36 52V32M36 32L32 24M36 32L40 24M36 32L36 16M48 52V32M48 32L44 24M48 32L52 24M48 32L48 16"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+            </svg>
+            <div class="about-icon-title">Grains</div>
+          </div>
+          <div class="about-icon">
+            <!-- SVG icon vegetable proteins -->
+            <svg width="80" height="80" viewBox="0 0 64 64" fill="none">
+              <circle
+                cx="32"
+                cy="32"
+                r="24"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <path
+                d="M24 40c0-4 8-4 8 0s8 4 8 0"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <path d="M32 32v-8" stroke="#4CA381" stroke-width="2" />
+            </svg>
+            <div class="about-icon-title">Vegetable<br />Proteins</div>
+          </div>
+          <div class="about-icon">
+            <!-- SVG icon animal proteins -->
+            <svg width="80" height="80" viewBox="0 0 64 64" fill="none">
+              <ellipse
+                cx="32"
+                cy="40"
+                rx="16"
+                ry="12"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <ellipse
+                cx="32"
+                cy="32"
+                rx="8"
+                ry="6"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <path
+                d="M16 40c-4-8 8-8 8 0M48 40c4-8-8-8-8 0"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+            </svg>
+            <div class="about-icon-title">Animal<br />Proteins</div>
+          </div>
+          <div class="about-icon">
+            <!-- SVG icon food -->
+            <svg width="80" height="80" viewBox="0 0 64 64" fill="none">
+              <rect
+                x="20"
+                y="32"
+                width="24"
+                height="16"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <rect
+                x="28"
+                y="24"
+                width="8"
+                height="8"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <rect
+                x="24"
+                y="40"
+                width="16"
+                height="8"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+            </svg>
+            <div class="about-icon-title">Food</div>
+          </div>
+          <div class="about-icon">
+            <!-- SVG icon global importing & exporting -->
+            <svg width="80" height="80" viewBox="0 0 64 64" fill="none">
+              <rect
+                x="16"
+                y="32"
+                width="32"
+                height="16"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <rect
+                x="24"
+                y="40"
+                width="16"
+                height="8"
+                stroke="#4CA381"
+                stroke-width="2"
+              />
+              <circle cx="32" cy="32" r="8" stroke="#4CA381" stroke-width="2" />
+            </svg>
+            <div class="about-icon-title">
+              Global Importing<br />& Exporting
             </div>
-            <section class="section-contact">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 bg-1">
-                            <div class="item">
-                                <!-- SECTION TITLE AND DESCRIPTION -->
-                                <header class="item__header">
-                                    <h2 class="item__title">Contacts</h2>
-                                    <p class="item__subtitle">Contact our office in Melbourne at</p>
-                                </header>
-                                <!-- /SECTION TITLE AND DESCRIPTION -->
-                                <div class="company-contacts">
-                                    <!-- ADDRESS -->
-                                    <address>
-                                        <p>
-                                            <i class="fontello-location"></i>
-                                            Suite 12, 1320 Plenty Road, Bundoora, VIC 3083, Australia                                        
-                                        </p>
-                                        <p>
-                                            <i class="fontello-phone-call"></i>
-                                            (+61) 3 9989 7126 | Mobile: (+61) 411 307 159                                        
-                                        </p>
-                                        <p>
-                                            <i class="fontello-mail"></i>
-                                            info@sunnytradegroup.com.au                                        
-                                        </p>
-                                    </address>
-                                    <!-- /ADDRESS -->
-                                    <!-- SOCIAL -->
-                                    <div class="social-btns">
-                                        <div class="social-btns__inner">
-                                            <a class="fontello-twitter" href="#0" target="_blank"></a>
-                                            <a class="fontello-facebook" href="#0" target="_blank"></a>
-                                            <a class="fontello-linkedin-squared" href="#0" target="_blank"></a>
-                                            <a class="fontello-youtube" href="#0" target="_blank"></a>
-                                            <a class="fontello-gplus" href="#0" target="_blank"></a>
-                                            <a class="fontello-vimeo" href="#0" target="_blank"></a>
-                                            <a class="fontello-vkontakte" href="#0" target="_blank"></a>
-                                            <a class="fontello-instagram" href="#0" target="_blank"></a>
-                                        </div>
-                                    </div>
-                                    <!-- /SOCIAL -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6 bg-2">
-                            <div class="item">
-                                <header class="item__header">
-                                    <h2 class="item__title">Get In Touch</h2>
-                                    <p class="item__subtitle">Request for samples by sending us a message</p>
-                                </header>
-                                <p>
-                                <div class="wpcf7 no-js" id="wpcf7-f5-o1" lang="en" dir="ltr" data-wpcf7-id="5">
-                                    <div class="screen-reader-response">
-                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                        <ul></ul>
-                                    </div>
-                                    <form action="/#wpcf7-f5-o1" method="post" class="wpcf7-form init" aria-label="Form liên hệ" novalidate="novalidate" data-status="init">
-                                        <div style="display: none;">
-                                            <input type="hidden" name="_wpcf7" value="5"/>
-                                            <input type="hidden" name="_wpcf7_version" value="6.0.6"/>
-                                            <input type="hidden" name="_wpcf7_locale" value="en"/>
-                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1"/>
-                                            <input type="hidden" name="_wpcf7_container_post" value="0"/>
-                                            <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                                        </div>
-                                        <div class="f1">
-                                            <p>
-                                                <label class="input-wrp">
-                                                    <i class="fontello-user"></i>
-                                                    <span class="wpcf7-form-control-wrap" data-name="text-871">
-                                                        <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required textfield" aria-required="true" aria-invalid="false" placeholder="Your name" value="" type="text" name="text-871"/>
-                                                    </span>
-                                                </label>
-                                                <label class="input-wrp">
-                                                    <i class="fontello-mail"></i>
-                                                    <span class="wpcf7-form-control-wrap" data-name="text-872">
-                                                        <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required textfield" aria-required="true" aria-invalid="false" placeholder="E-mail" value="" type="text" name="text-872"/>
-                                                    </span>
-                                                </label>
-                                                <label class="input-wrp">
-                                                    <i class="fontello-comment"></i>
-                                                    <span class="wpcf7-form-control-wrap" data-name="textarea-808">
-                                                        <textarea cols="10" rows="2" maxlength="2000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required textfield" aria-required="true" aria-invalid="false" placeholder="Comment" name="textarea-808"></textarea>
-                                                    </span>
-                                                </label>
-                                            </p>
-                                            <div class="btn-wrp">
-                                                <p>
-                                                    <input class="wpcf7-form-control wpcf7-submit has-spinner custom-btn long" type="submit" value="Send a message"/>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                    </form>
-                                </div>
-</p></div></div>
-<div class="col-xs-12">
-    <div class="item map-container">
-        <p>
-        <div id="wpgmza_map" class="wpgmza_map" data-settings='{"id":"1","map_title":"New Map","map_width":"100","map_height":"615","map_start_lat":"-37.6989734192068","map_start_lng":"145.05887216522245","map_start_location":"45.950464398418106,-109.81550500000003","map_start_zoom":"18","default_marker":"","type":"0","alignment":"4","directions_enabled":"0","styling_enabled":"0","styling_json":"","active":"0","kml":"","bicycle":"0","traffic":"0","dbox":"0","dbox_width":"","listmarkers":"0","listmarkers_advanced":"0","filterbycat":"0","ugm_enabled":"0","ugm_category_enabled":"0","fusion":"","map_width_type":"%","map_height_type":"px","mass_marker_support":"0","ugm_access":"0","order_markers_by":"0","order_markers_choice":"0","show_user_location":"0","default_to":"","other_settings":{"map_type":1,"sl_stroke_color":"","sl_fill_color":"","sl_stroke_opacity":"","sl_fill_opacity":"","transport_layer":false,"action":"wpgmza_save_map","redirect_to":"\/wp-admin\/admin-post.php","map_id":"1","http_referer":"\/wp-admin\/admin.php?page=wp-google-maps-menu&amp;override=1&amp;action=edit&amp;map_id=1","wpgmza_id":"1","wpgmza_start_location":"-37.6989734192068,145.05887216522245","wpgmza_start_zoom":"18","store_locator_enabled":false,"store_locator_search_area":"radial","wpgmza_store_locator_radius_style":"legacy","wpgmza_store_locator_default_radius":"10","store_locator_auto_area_max_zoom":"","store_locator_distance":false,"wpgmza_store_locator_position":false,"store_locator_category":false,"wpgmza_store_locator_use_their_location":false,"wpgmza_store_locator_bounce":false,"wpgmza_sl_animation":null,"wpgmza_store_locator_hide_before_search":false,"store_locator_query_string":"","store_locator_default_address":"","store_locator_name_search":false,"store_locator_name_string":"","store_locator_not_found_message":"","wpgmza_map_align":"1","jump_to_nearest_marker_on_initialization":false,"automatically_pan_to_users_location":false,"override_users_location_zoom_level":false,"override_users_location_zoom_levels":"","show_distance_from_location":false,"map_max_zoom":"21","map_min_zoom":"0","click_open_link":false,"fit_maps_bounds_to_markers":false,"fit_maps_bounds_to_markers_after_filtering":false,"hide_point_of_interest":false,"wpgmza_zoom_on_marker_click":false,"wpgmza_zoom_on_marker_click_slider":"","close_infowindow_on_map_click":false,"disable_lightbox_images":false,"use_Raw_Jpeg_Coordinates":false,"polygon_labels":false,"disable_polygon_info_windows":false,"enable_marker_ratings":false,"only_load_markers_within_viewport":false,"iw_primary_color":"","iw_accent_color":"","iw_text_color":"","wpgmza_listmarkers_by":"0","wpgmza_marker_listing_position":false,"datatable_no_result_message":"","remove_search_box_datables":false,"dataTable_pagination_style":null,"datatable_search_string":"","datatable_result_start":"","datatable_result_of":"","datatable_result_to":"","datatable_result_total":"","datatable_result_show":"","datatable_result_entries":"","wpgmza_savemap":"Save Map \u00bb"}}' data-map-id='1' Data-maps-engine='open-layers' data-shortcode-attributes='{"id":"1"}' style="display:block; overflow:auto; width:100%; height:615px; float:left;"></div>
-</p></div></div></div></div></section></main>
-<footer id="footer" class="footer--style-1 footer-widgetize">
-    <div class="footer__inner">
-        <div class="container">
-            <div class="row">
-                <div class="widget widget_text col-md-6 col-lg-6">
-                    <div class="textwidget">
-                        <div class="footer__item">
-                            <img src="http://sunnytradegroup.com.au/wp-content/uploads/2021/02/Sunny-Trading-Group_logo.png" alt="logo-footer" width="280px">
-                            <p class="footer__copy">© 2021 Sunny Trading Group. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="widget widget_text col-md-6 col-lg-6">
-                    <div class="textwidget">
-                        <div class="footer__item">
-                            <h3 class="footer__title">Additional menu</h3>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <ul class="footer__menu">
-                                        <li>
-                                            <a href="#">Home</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contacts</a>
-                                        </li>
-                                        <li>
-                                            <a href="http://sunnytradegroup.com.au/wp-content/uploads/2021/03/Privacy-Policy.pdf" target="_blank">Privacy Policy & Disclaimer</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- Site Back Top -->
-<div id="btn-to-top-wrap">
-    <a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="1000"></a>
-</div>
-<!-- Site Back Top End -->
-<script type="speculationrules">
-    {
-        "prefetch": [
-            {
-                "source": "document",
-                "where": {
-                    "and": [
-                        {
-                            "href_matches": "\/*"
-                        },
-                        {
-                            "not": {
-                                "href_matches": [
-                                    "\/wp-*.php",
-                                    "\/wp-admin\/*",
-                                    "\/wp-content\/uploads\/*",
-                                    "\/wp-content\/*",
-                                    "\/wp-content\/plugins\/*",
-                                    "\/wp-content\/themes\/nt-agricom-child\/*",
-                                    "\/wp-content\/themes\/nt-agricom\/*",
-                                    "\/*\\?(.+)"
-                                ]
-                            }
-                        },
-                        {
-                            "not": {
-                                "selector_matches": "a[rel~=\"nofollow\"]"
-                            }
-                        },
-                        {
-                            "not": {
-                                "selector_matches": ".no-prefetch, .no-prefetch a"
-                            }
-                        }
-                    ]
-                },
-                "eagerness": "conservative"
-            }
-        ]
-    }</script>
-<script type="text/html" id="wpb-modifications">
-     window.wpbCustomElement = 1; 
-</script>
-<link rel='stylesheet' id='vc_animate-css-css' href='https://sunnytradegroup.com.au/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/animate.css/animate.min.css?ver=7.9' type='text/css' media='all'/>
-<link rel='stylesheet' id='wpgmza-ol-base-style-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/ol.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='wpgmza-ol-style-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/css/open-layers.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='wpgmza-common-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/css/common.css?ver=8.1.9' type='text/css' media='all'/>
-<link rel='stylesheet' id='remodal-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/remodal.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='remodal-default-theme-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/remodal-default-theme.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='datatables-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/css/jquery.dataTables.min.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='wpgmza-ui-default-css' href='https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/css/styles/default.css?ver=8.1.9' type='text/css' media='all'/>
-<link rel='stylesheet' id='dashicons-css' href='https://sunnytradegroup.com.au/wp-includes/css/dashicons.min.css?ver=6.8.2' type='text/css' media='all'/>
-<link rel='stylesheet' id='editor-buttons-css' href='https://sunnytradegroup.com.au/wp-includes/css/editor.min.css?ver=6.8.2' type='text/css' media='all'/>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-    /* <![CDATA[ */
-    wp.i18n.setLocaleData({
-        'text direction\u0004ltr': ['ltr']
-    });
-    /* ]]> */
-</script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-translations">
-    /* <![CDATA[ */
-    (function(domain, translations) {
-        var localeData = translations.locale_data[domain] || translations.locale_data.messages;
-        localeData[""].domain = domain;
-        wp.i18n.setLocaleData(localeData, domain);
-    }
-    )("contact-form-7", {
-        "translation-revision-date": "2024-08-11 13:44:17+0000",
-        "generator": "GlotPress\/4.0.1",
-        "domain": "messages",
-        "locale_data": {
-            "messages": {
-                "": {
-                    "domain": "messages",
-                    "plural-forms": "nplurals=1; plural=0;",
-                    "lang": "vi_VN"
-                },
-                "This contact form is placed in the wrong place.": ["Bi\u1ec3u m\u1eabu li\u00ean h\u1ec7 n\u00e0y \u0111\u01b0\u1ee3c \u0111\u1eb7t sai v\u1ecb tr\u00ed."],
-                "Error:": ["L\u1ed7i:"]
-            }
-        },
-        "comment": {
-            "reference": "includes\/js\/index.js"
-        }
-    });
-    /* ]]> */
-</script>
-<script type="text/javascript" id="contact-form-7-js-before">
-    /* <![CDATA[ */
-    var wpcf7 = {
-        "api": {
-            "root": "https:\/\/sunnytradegroup.com.au\/wp-json\/",
-            "namespace": "contact-form-7\/v1"
-        }
-    };
-    /* ]]> */
-</script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6" id="contact-form-7-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-includes/js/comment-reply.min.js?ver=6.8.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/isotope-layout/dist/isotope.pkgd.min.js?ver=7.9" id="isotope-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/owl.carousel.js?ver=1.0" id="owl-carousel-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/jquery.countTo.js?ver=1.0" id="countTo-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/jquery.appear.min.js?ver=1.0" id="appear-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/jquery.easypiechart.js?ver=1.0" id="easypiechart-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/jquery.stellar.min.js?ver=1.0" id="stellar-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/jquery.fs.boxer.min.js?ver=1.0" id="fs-boxer-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/aos.js?ver=1.0" id="aos-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/main.js?ver=1.0" id="nt-agricom-main-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/flexslider/framework-flexslider.js?ver=1.0" id="nt-agricom-custom-flexslider-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/framework-fitvids.js?ver=1.0" id="agricom-fitvids-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/framework-blog-settings.js?ver=1.0" id="nt-agricom-blog-settings-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.9" id="wpb_composer_front_js-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/themes/nt-agricom/js/vegas-slider.js?ver=1.0" id="vegas-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/js_composer/assets/lib/vc/vc_waypoints/vc-waypoints.min.js?ver=7.9" id="vc_waypoints-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/ol.js?ver=6.8.2" id="wpgmza_ol_api_call-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/js/jquery.dataTables.js?ver=6.8.2" id="datatables-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/js/dataTables.responsive.js?ver=6.8.2" id="datatables-responsive-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/jquery-cookie.js?ver=6.8.2" id="javascript-cookie-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/remodal.js?ver=6.8.2" id="remodal-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/spectrum.js?ver=6.8.2" id="spectrum-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/pep.js?ver=6.8.2" id="pepjs-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/text.js?ver=6.8.2" id="fast-text-encoding-js"></script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/lib/pako_deflate.min.js?ver=6.8.2" id="pako-js"></script>
-<script type="text/javascript" id="wpgmza_data-js-extra">
-    /* <![CDATA[ */
-    var wpgmza_google_api_status = {
-        "message": "Engine is not google-maps",
-        "code": "ENGINE_NOT_GOOGLE_MAPS"
-    };
-    var wpgmza_google_api_status = {
-        "message": "Engine is not google-maps",
-        "code": "ENGINE_NOT_GOOGLE_MAPS"
-    };
-    /* ]]> */
-</script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/wpgmza_data.js?ver=6.8.2" id="wpgmza_data-js"></script>
-<script type="text/javascript" id="wpgmza-js-extra">
-    /* <![CDATA[ */
-    var WPGMZA_localized_data = {
-        "adminurl": "https:\/\/sunnytradegroup.com.au\/wp-admin\/",
-        "siteHash": "6b7261b91dbd8ffa63166b4d617c5f4f",
-        "ajaxurl": "https:\/\/sunnytradegroup.com.au\/wp-admin\/admin-ajax.php",
-        "pluginDirURL": "https:\/\/sunnytradegroup.com.au\/wp-content\/plugins\/wp-google-maps\/",
-        "ajaxnonce": "3bfd8f5087",
-        "legacyajaxnonce": "6ffd365bb5",
-        "html": {
-            "googleMapsAPIErrorDialog": "<div>\n\n\t<h2>Maps API Error<\/h2>\n\t\n\t<div>\n\t\n\t\t<p>\n\t\t\tOne or more error(s) have occured attempting to initialize the Maps API:\t\t<\/p>\n\t\n\t\t<ul class=\"wpgmza-google-api-error-list\">\n\t\t\t<li class=\"template notice notice-error\">\n\t\t\t\t<span class=\"wpgmza-message\"><\/span>\n\t\t\t\t<span class=\"wpgmza-documentation-buttons\">\n\t\t\t\t\t<a target=\"_blank\">\n\t\t\t\t\t\t<i class=\"fa\" aria-hidden=\"true\"><\/i>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/span>\n\t\t\t<\/li>\n\t\t<\/ul>\n\t\n\t<\/div>\n\t\t\t<p class=\"wpgmza-front-end-only\">\n\t\t<i class=\"fa fa-eye\" aria-hidden=\"true\"><\/i>\n\t\tThis dialog is only visible to administrators\t<\/p>\n\t\n\t<!--<button data-remodal-action=\"confirm\" class=\"remodal-confirm\">\n\t\tDismiss\t<\/button>-->\n\n<\/div>"
-        },
-        "imageFolderURL": "https:\/\/sunnytradegroup.com.au\/wp-content\/plugins\/wp-google-maps\/images\/",
-        "resturl": "https:\/\/sunnytradegroup.com.au\/wp-json\/wpgmza\/v1",
-        "restnonce": "2bb13c0ad9",
-        "restnoncetable": {
-            "\/(polygons|polylines|circles|rectangles)(\\\/\\d+)?\/": "cfb117678d",
-            "\/markers(\\\/\\d+)?\/": "108423e26a",
-            "\/datatables": "ec97050ca8"
-        },
-        "settings": {
-            "engine": "open-layers",
-            "google_maps_api_key": false,
-            "default_marker_icon": "http:\/\/sunnytradegroup.com.au\/wp-content\/plugins\/wp-google-maps\/images\/spotlight-poi2.png",
-            "developer_mode": false,
-            "user_interface_style": "default",
-            "wpgmza_gdpr_enabled": 1,
-            "wpgmza_gdpr_default_notice": "<p>\n\tI agree for my personal data to be processed by <span name=\"wpgmza_gdpr_company_name\"><\/span>, for the purpose(s) of <span name=\"wpgmza_gdpr_retention_purpose\"><\/span>.\n<\/p>\n\n<p>\t\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\n<\/p>\n<p>\n\tSome visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n<\/p>\n<p>\n\tWP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n<\/p>\n<p>\n\tPlease <a href=\"https:\/\/developers.google.com\/maps\/terms\">see here<\/a> and <a href=\"https:\/\/maps.google.com\/help\/terms_maps.html\">here<\/a> for Google's terms. Please also see <a href=\"https:\/\/policies.google.com\/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy<\/a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n<\/p>\n<p>\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\n<\/p>",
-            "wpgmza_gdpr_company_name": "Sunny Trade Group",
-            "wpgmza_gdpr_retention_purpose": "displaying map tiles, geocoding addresses and calculating and display directions.",
-            "wpgmza_marker_xml_location": "\/home\/sunny447\/public_html\/wp-content\/uploads\/wp-google-maps\/",
-            "wpgmza_marker_xml_url": "http:\/\/sunnytradegroup.com.au\/wp-content\/uploads\/wp-google-maps\/",
-            "wpgmza_maps_engine": "open-layers",
-            "wpgmza_maps_engine_dialog_done": true,
-            "defaultMarkerIcon": "http:\/\/sunnytradegroup.com.au\/wp-content\/plugins\/wp-google-maps\/images\/spotlight-poi2.png",
-            "developerMode": false,
-            "gdprCompanyName": "Sunny Trade Group",
-            "gdprDefaultNotice": "<p>\n\tI agree for my personal data to be processed by <span name=\"wpgmza_gdpr_company_name\"><\/span>, for the purpose(s) of <span name=\"wpgmza_gdpr_retention_purpose\"><\/span>.\n<\/p>\n\n<p>\t\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\n<\/p>\n<p>\n\tSome visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n<\/p>\n<p>\n\tWP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n<\/p>\n<p>\n\tPlease <a href=\"https:\/\/developers.google.com\/maps\/terms\">see here<\/a> and <a href=\"https:\/\/maps.google.com\/help\/terms_maps.html\">here<\/a> for Google's terms. Please also see <a href=\"https:\/\/policies.google.com\/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy<\/a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n<\/p>\n<p>\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\n<\/p>",
-            "gdprEnabled": 1,
-            "gdprRetentionPurpose": "displaying map tiles, geocoding addresses and calculating and display directions.",
-            "mapsEngineDialogDone": true,
-            "markerXmlLocation": "\/home\/sunny447\/public_html\/wp-content\/uploads\/wp-google-maps\/",
-            "markerXmlUrl": "http:\/\/sunnytradegroup.com.au\/wp-content\/uploads\/wp-google-maps\/",
-            "userInterfaceStyle": "default"
-        },
-        "currentPage": null,
-        "userCanAdministrator": "0",
-        "serverCanInflate": "1",
-        "localized_strings": {
-            "unsecure_geolocation": "Many browsers are no longer allowing geolocation from unsecured origins. You will need to secure your site with an SSL certificate (HTTPS) or this feature may not work for your visitors",
-            "use_my_location": "Use my location",
-            "google_api_not_loaded": "The map cannot be initialized because the Maps API has not been loaded. Please check your settings.",
-            "no_google_maps_api_key": "You have not entered a <b>Google Maps API Key<\/b>.<br \/><br \/>Please go to the your admin area, then Maps, then Settings, then the Advanced tab to <a href=\"https:\/\/sunnytradegroup.com.au\/wp-admin\/admin.php?page=wp-google-maps-menu-settings&highlight=wpgmza_google_maps_api_key#advanced-settings\">enter your Google Maps API key<\/a>.<br \/><br \/>Alternatively, <a href=\"https:\/\/sunnytradegroup.com.au\/wp-admin\/admin.php?page=wp-google-maps-menu-settings&highlight=wpgmza_maps_engine\">choose the Open Layers engine<\/a> to avoid getting an API key.",
-            "documentation": "Documentation",
-            "api_dashboard": "API Dashboard",
-            "verify_project": "Verify Project",
-            "no_shape_circle": "Please create the circle first.",
-            "no_shape_rectangle": "Please create the rectangle first.",
-            "no_shape_polygon": "Please create the polygon first.",
-            "no_shape_polyline": "Please create the polyline first.",
-            "failed_to_get_address": "Failed to get address",
-            "failed_to_create_marker": "Failed to create marker %d - this marker cannot be placed on the map.",
-            "my_location": "My Location",
-            "kilometers_away": "km away",
-            "miles_away": "miles away",
-            "import_completed": "Import completed.",
-            "importing_please_wait": "Importing, this may take a moment...",
-            "no_address_specified": "No address specified",
-            "add_marker": "Add Marker",
-            "save_marker": "Save Marker",
-            "please_wait": "Please Wait...",
-            "zero_results": "No results found in this location. Please try again.",
-            "address_not_found": "This address could not be found. WP Google Maps uses a 3rd party service (eg Google) to convert addresses to geographic coordinates. Unfortunately, the service has no records for this address at present. Please try an alternative format, or manually position the marker using right click.",
-            "geocode_fail": "Geocode failed due to technical reasons",
-            "you_must_check_gdpr_consent": "You must check the GDPR consent box to continue",
-            "no_gps_coordinates": "No GPS coordinates found",
-            "fetching_directions": "Fetching directions...",
-            "unknown_directions_service_status": "Unknown directions service status",
-            "please_fill_out_both_from_and_to_fields": "Please fill out both the \"from\" and \"to\" fields",
-            "no_picture_found": "No picture found",
-            "overwrite_theme_data": "Are you sure you want to overwrite the existing theme data?",
-            "upload_complete": "Upload Complete",
-            "uploading_file": "Uploading file",
-            "bulk_jpeg_media_title": "WP Google Maps - Bulk JPEG Upload",
-            "from_your_location": "from your location",
-            "from_searched_location": "from searched location",
-            "yes": "Yes",
-            "no": "No",
-            "requires_gold_v5": "Requires WP Google Maps - Gold add-on 5.0.0 or above",
-            "confirm_remove_duplicates": "This operation is not reversable. We recommend you take a backup before proceeding. Would you like to continue?",
-            "invalid_theme_data": "Invalid theme data",
-            "duplicate_custom_field_name": "Duplicate custom field names, please ensure you only add unique custom field names.",
-            "disabled_interactions_notice": "Some interactions are disabled.",
-            "interactions_enabled_notice": "Interactions Enabled",
-            "disabled_interactions_button": "Re-Enable Interactions",
-            "use_two_fingers": "Use two fingers to move the map",
-            "use_ctrl_scroll_to_zoom": "Use ctrl + scroll to zoom the map",
-            "geocode_was_not_successful": "Geocode was not successful for the following reason: ",
-            "geocoding_library_notice": "Geocoding this address failed. Please check you have enabled the Geocoding API for your Google Maps API project.",
-            "map_delete_prompt_text": "Are you sure you want to delete this map?",
-            "map_bulk_delete_prompt_text": "Are you sure you want to delete these maps?",
-            "new_map": "New Map",
-            "cloud_api_key_error_1": "Autocomplete disabled. <a href=\"https:\/\/wpgmaps.com\/documentation\/autocomplete-disabled\/\" target=\"_BLANK\">Find out more<\/a>."
-        },
-        "api_consent_html": "<div class=\"wpgmza-gdpr-compliance\"><p>\n\tI agree for my personal data to be processed by <span name=\"wpgmza_gdpr_company_name\">Sunny Trade Group<\/span>, for the purpose(s) of <span name=\"wpgmza_gdpr_retention_purpose\">displaying map tiles, geocoding addresses and calculating and display directions.<\/span>.\n<\/p>\n\n<p>\t\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\n<\/p>\n<p>\n\tSome visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n<\/p>\n<p>\n\tWP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n<\/p>\n<p>\n\tPlease <a href=\"https:\/\/developers.google.com\/maps\/terms\">see here<\/a> and <a href=\"https:\/\/maps.google.com\/help\/terms_maps.html\">here<\/a> for Google's terms. Please also see <a href=\"https:\/\/policies.google.com\/privacy?hl=en-GB&gl=uk\">Google's Privacy Policy<\/a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n<\/p>\n<p>\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\n<\/p><p class='wpgmza-centered'><button class='wpgmza-api-consent'>I agree<\/button><\/div><\/p>",
-        "basic_version": "8.1.9",
-        "_isProVersion": "",
-        "defaultMarkerIcon": "https:\/\/sunnytradegroup.com.au\/wp-content\/plugins\/wp-google-maps\/images\/spotlight-poi2.png",
-        "markerXMLPathURL": "\/\/sunnytradegroup.com.au\/wp-content\/uploads\/wp-google-maps\/",
-        "is_admin": "0",
-        "locale": "vi",
-        "isServerIIS": "",
-        "postID": "443"
-    };
-    /* ]]> */
-</script>
-<script type="text/javascript" src="https://sunnytradegroup.com.au/wp-content/plugins/wp-google-maps/js/v8/wp-google-maps.min.js?ver=8.1.9" id="wpgmza-js"></script>
-<script></script>
-</body></html>
+      </div>
+    </section>
+
+    <!-- Gateway Details Section -->
+    <section class="gateway-details">
+      <div class="container gateway-details-content">
+        <div class="gateway-details-text">
+          <h2>
+            <span class="gd-blue">SUPERIOR TRADING</span><br />
+            <span class="gd-orange">GATEWAY</span><br />
+            <span class="gd-yellow">TO ASIA</span>
+          </h2>
+          <p class="gd-subtitle">
+            <strong>A superior gateway to export to Asia</strong>
+          </p>
+          <p>
+            We have been marketing Australian agriproducts and Feed Ingredients
+            to Asia since 2012. We are highly experienced in sourcing and
+            delivering product on time, and in meeting the quality and
+            specification standards that our customers need.
+          </p>
+          <p>
+            We understand Asia market better than anyone. Our director has been
+            trading agriproducts in Asia since 2006 and since then, we have been
+            expanding our professional network with local and global trading
+            partners. We have been serving more than 40 top feed manufacturers,
+            trading firms and farmers from across Asia, and more than 30 top
+            suppliers from USA, Canada, Australia, Brazil, Argentina, Singapore
+            and Europe.
+          </p>
+          <p>
+            We know the differences in business culture and business environment
+            so we can be your go-to expert when trading from across the globe to
+            Asia. With our extensive and growing network of industry experts,
+            our sole purpose is to help you access Asia market with confidence.
+          </p>
+          <a href="#" class="find-out-btn">FIND OUT MORE</a>
+        </div>
+        <div class="gateway-details-image"></div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <div class="container">
+        <h2>Products and services</h2>
+        <div class="products-grid">
+          <div class="product-category">
+            <div class="product-icon">
+              <!-- Cow SVG -->
+              <svg width="120" height="120" viewBox="0 0 64 64" fill="none">
+                <path
+                  d="M16 24C16 16 32 16 32 24"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M48 24C48 16 32 16 32 24"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <ellipse
+                  cx="32"
+                  cy="36"
+                  rx="16"
+                  ry="12"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <ellipse
+                  cx="24"
+                  cy="36"
+                  rx="2"
+                  ry="3"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <ellipse
+                  cx="40"
+                  cy="36"
+                  rx="2"
+                  ry="3"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <path
+                  d="M12 24V16M52 24V16"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="product-title">Animal proteins</div>
+            <ul class="product-list">
+              <li>Meat and bone meal</li>
+              <li>Blood meal</li>
+              <li>Feather meal</li>
+              <li>Bovine meal</li>
+              <li>Fish meal</li>
+              <li>Kangaroo meal</li>
+              <li>Ovine meal</li>
+              <li>Poultry meal</li>
+              <li>Tallows and oils</li>
+            </ul>
+          </div>
+          <div class="product-category">
+            <div class="product-icon">
+              <!-- Grains SVG -->
+              <svg width="120" height="120" viewBox="0 0 64 64" fill="none">
+                <path
+                  d="M12 52V32M12 32L8 24M12 32L16 24M12 32L12 16M24 52V32M24 32L20 24M24 32L28 24M24 32L24 16"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <path
+                  d="M36 52V32M36 32L32 24M36 32L40 24M36 32L36 16M48 52V32M48 32L44 24M48 32L52 24M48 32L48 16"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+              </svg>
+            </div>
+            <div class="product-title">Grains</div>
+            <ul class="product-list">
+              <li>Barley</li>
+              <li>Corn</li>
+              <li>Soybean Cleaned No1, No2</li>
+              <li>Soybean non-GMO</li>
+              <li>Wheat</li>
+              <li>Oat</li>
+            </ul>
+          </div>
+          <div class="product-category">
+            <div class="product-icon">
+              <!-- Milk SVG -->
+              <svg width="120" height="120" viewBox="0 0 64 64" fill="none">
+                <rect
+                  x="20"
+                  y="32"
+                  width="24"
+                  height="16"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <rect
+                  x="28"
+                  y="24"
+                  width="8"
+                  height="8"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <rect
+                  x="24"
+                  y="40"
+                  width="16"
+                  height="8"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <rect
+                  x="44"
+                  y="32"
+                  width="8"
+                  height="16"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <rect
+                  x="48"
+                  y="36"
+                  width="4"
+                  height="8"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+              </svg>
+            </div>
+            <div class="product-title">Food</div>
+            <ul class="product-list">
+              <li>Milk powder</li>
+              <li>Soybean for soya milk</li>
+              <li>Oat milk</li>
+              <li>Almond milk</li>
+            </ul>
+          </div>
+          <div class="product-category">
+            <div class="product-icon">
+              <!-- Basket SVG -->
+              <svg width="120" height="120" viewBox="0 0 64 64" fill="none">
+                <ellipse
+                  cx="32"
+                  cy="44"
+                  rx="20"
+                  ry="10"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <rect
+                  x="22"
+                  y="34"
+                  width="20"
+                  height="10"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <circle
+                  cx="32"
+                  cy="28"
+                  r="8"
+                  stroke="#f4d03f"
+                  stroke-width="3"
+                />
+                <path d="M28 28h8M32 24v8" stroke="#f4d03f" stroke-width="3" />
+              </svg>
+            </div>
+            <div class="product-title">Vegetable Proteins</div>
+            <ul class="product-list">
+              <li>Canola Meal</li>
+              <li>DDGS (Corn)</li>
+              <li>DDGS (Wheat)</li>
+              <li>Soybean Meal</li>
+              <li>Sunflower Meal</li>
+              <li>Rice bran pellets</li>
+              <li>Wheat bran pellets</li>
+              <li>Sorghum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <div class="contact-info-inner">
+          <h2>Contacts</h2>
+          <p>Contact our office in Melbourne at</p>
+          <div class="contact-details">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <span
+                ><strong
+                  >Suite 12, 1320 Plenty Road, Bundoora, VIC 3083,
+                  Australia</strong
+                ></span
+              >
+            </div>
+            <div>
+              <i class="fa fa-phone"></i>
+              <span
+                ><strong
+                  >(+61) 3 9989 7126 | Mobile: (+61) 411 307 159</strong
+                ></span
+              >
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <span><strong>info@sunnytradegroup.com.au</strong></span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-vimeo"></i></a>
+            <a href="#"><i class="fa fa-vk"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="contact-form-inner">
+          <h2>Get In Touch</h2>
+          <p>Request for samples by sending us a message</p>
+          <form>
+            <div class="form-group">
+              <label class="input-wrp">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Your name" required />
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="input-wrp">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="E-mail" required />
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="input-wrp">
+                <i class="fa fa-comment"></i>
+                <textarea placeholder="Comment" required></textarea>
+              </label>
+            </div>
+            <button type="submit" class="submit-btn">SEND A MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <!-- Map Section -->
+    <section class="map">
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.019315533116!2d145.05887216522245!3d-37.6989734192068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642e1b7e8b7e1%3A0x5045675218ce6e0!2s1320%20Plenty%20Rd%2C%20Bundoora%20VIC%203083%2C%20Australia!5e0!3m2!1sen!2sau!4v1658820000000!5m2!1sen!2sau"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="https://sunnytradegroup.com.au/wp-content/uploads/2021/07/logo-sunny.png"
+            alt="SUNNY TRADING GROUP"
+            class="footer-logo-img"
+          />
+          <div class="footer-copyright">
+            © 2021 Sunny Trading Group. All rights reserved.
+          </div>
+        </div>
+        <div class="footer-right">
+          <h4>ADDITIONAL MENU</h4>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#contact">CONTACTS</a></li>
+            <li><a href="#">PRIVACY POLICY & DISCLAIMER</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Go to top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
